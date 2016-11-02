@@ -1,0 +1,19 @@
+[user]
+	name = Lijun Tang
+	email = hercule2400@gmail.com
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  cm = commit
+  dp = diff HEAD^ HEAD
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+
+[core]
+	excludesfile = /Users/hercule/.gitignore
+[push]
+	default = simple
